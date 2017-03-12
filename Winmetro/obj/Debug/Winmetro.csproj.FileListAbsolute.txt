@@ -8,4 +8,5 @@ c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debu
 c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.exe
 c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.pdb
 C:\Users\Arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.csprojResolveAssemblyReference.cache
-C:\Users\Arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources
+C:\Users\Arthas\Documents\Visual Studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.add_vehicle.resources
+C:\Users\Arthas\Documents\Visual Studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources

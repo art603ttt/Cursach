@@ -12,9 +12,22 @@ namespace Winmetro
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
+        Garage my_Garage;
+        add_vehicle form_add;
+
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+
+
+        //События
+        private void metroTile1_Click(object sender, EventArgs e)//Дальше -- в форму add_vehicle
+        {
+           form_add = new add_vehicle(this);  //инициализируем форму добавления тс
+           form_add.ShowDialog();             //открываем форму
         }
     }
 }

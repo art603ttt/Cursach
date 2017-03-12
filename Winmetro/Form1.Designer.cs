@@ -39,6 +39,7 @@
             this.metroTile1.Size = new System.Drawing.Size(93, 70);
             this.metroTile1.TabIndex = 1;
             this.metroTile1.Text = "Add vehicle";
+            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
             // 
             // metroTile2
             // 
@@ -52,7 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(675, 400);
+            this.ClientSize = new System.Drawing.Size(602, 419);
             this.Controls.Add(this.metroTile2);
             this.Controls.Add(this.metroTile1);
             this.Name = "Form1";
