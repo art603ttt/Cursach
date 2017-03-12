@@ -1,0 +1,11 @@
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\bin\Debug\Winmetro.exe.config
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\bin\Debug\Winmetro.exe
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\bin\Debug\Winmetro.pdb
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\bin\Debug\MetroFramework.dll
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\bin\Debug\MetroFramework.Fonts.dll
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.Properties.Resources.resources
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.csproj.GenerateResource.Cache
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.exe
+c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.pdb
+C:\Users\Arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.csprojResolveAssemblyReference.cache
+C:\Users\Arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources
