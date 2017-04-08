@@ -74,9 +74,18 @@
     </Compile>
     <Compile Include="my objects\Lorry.cs" />
     <Compile Include="my objects\Garage.cs" />
+    <Compile Include="added obj\One_res.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="my objects\Vehicle.cs" />
+    <Compile Include="added obj\Resors_collet.cs" />
+    <Compile Include="random_add_venicle.cs" />
+    <Compile Include="View_garage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_garage.Designer.cs">
+      <DependentUpon>View_garage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="add_vehicle.resx">
       <DependentUpon>add_vehicle.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,7 +100,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View_garage.resx">
+      <DependentUpon>View_garage.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -108,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\чч.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

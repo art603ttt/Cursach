@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Winmetro
 {
-    abstract class Vehicle  //абстрактный класс - транспортное средство
+  public  abstract class Vehicle  //абстрактный класс - транспортное средство
     {
         //поля
         string color;       //цвет 

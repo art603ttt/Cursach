@@ -10,3 +10,16 @@ c:\users\arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debu
 C:\Users\Arthas\documents\visual studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.csprojResolveAssemblyReference.cache
 C:\Users\Arthas\Documents\Visual Studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.add_vehicle.resources
 C:\Users\Arthas\Documents\Visual Studio 2015\Projects\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources
+E:\GITHUB\Winmetro\Winmetro\bin\Debug\Winmetro.exe.config
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.exe
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.pdb
+E:\GITHUB\Winmetro\Winmetro\bin\Debug\Winmetro.exe
+E:\GITHUB\Winmetro\Winmetro\bin\Debug\Winmetro.pdb
+E:\GITHUB\Winmetro\Winmetro\bin\Debug\MetroFramework.dll
+E:\GITHUB\Winmetro\Winmetro\bin\Debug\MetroFramework.Fonts.dll
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.csprojResolveAssemblyReference.cache
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.add_vehicle.resources
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.Properties.Resources.resources
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.csproj.GenerateResource.Cache
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.View_garage.resources

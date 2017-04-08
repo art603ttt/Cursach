@@ -30,6 +30,8 @@
         {
             this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.metroTile2 = new MetroFramework.Controls.MetroTile();
+            this.metroTile_hand = new MetroFramework.Controls.MetroTile();
+            this.metroTile_auto = new MetroFramework.Controls.MetroTile();
             this.SuspendLayout();
             // 
             // metroTile1
@@ -48,16 +50,40 @@
             this.metroTile2.Size = new System.Drawing.Size(93, 70);
             this.metroTile2.TabIndex = 2;
             this.metroTile2.Text = "View Garage";
+            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
+            // 
+            // metroTile_hand
+            // 
+            this.metroTile_hand.BackColor = System.Drawing.Color.White;
+            this.metroTile_hand.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.metroTile_hand.Location = new System.Drawing.Point(150, 102);
+            this.metroTile_hand.Name = "metroTile_hand";
+            this.metroTile_hand.Size = new System.Drawing.Size(93, 70);
+            this.metroTile_hand.TabIndex = 3;
+            this.metroTile_hand.Text = "hand";
+            this.metroTile_hand.Click += new System.EventHandler(this.metroTile_hand_Click);
+            // 
+            // metroTile_auto
+            // 
+            this.metroTile_auto.Location = new System.Drawing.Point(150, 210);
+            this.metroTile_auto.Name = "metroTile_auto";
+            this.metroTile_auto.Size = new System.Drawing.Size(93, 70);
+            this.metroTile_auto.TabIndex = 4;
+            this.metroTile_auto.Text = "auto";
+            this.metroTile_auto.Click += new System.EventHandler(this.metroTile_auto_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 419);
+            this.Controls.Add(this.metroTile_auto);
+            this.Controls.Add(this.metroTile_hand);
             this.Controls.Add(this.metroTile2);
             this.Controls.Add(this.metroTile1);
             this.Name = "Form1";
             this.Text = "Курсовой проект";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
@@ -66,6 +92,8 @@
 
         private MetroFramework.Controls.MetroTile metroTile1;
         private MetroFramework.Controls.MetroTile metroTile2;
+        private MetroFramework.Controls.MetroTile metroTile_hand;
+        private MetroFramework.Controls.MetroTile metroTile_auto;
     }
 }
 
