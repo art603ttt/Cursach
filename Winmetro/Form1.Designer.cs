@@ -32,6 +32,7 @@
             this.metroTile2 = new MetroFramework.Controls.MetroTile();
             this.metroTile_hand = new MetroFramework.Controls.MetroTile();
             this.metroTile_auto = new MetroFramework.Controls.MetroTile();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // metroTile1
@@ -72,11 +73,21 @@
             this.metroTile_auto.Text = "auto";
             this.metroTile_auto.Click += new System.EventHandler(this.metroTile_auto_Click);
             // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(486, 345);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(93, 51);
+            this.metroButton1.TabIndex = 5;
+            this.metroButton1.Text = "Выход";
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 419);
+            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTile_auto);
             this.Controls.Add(this.metroTile_hand);
             this.Controls.Add(this.metroTile2);
@@ -94,6 +105,7 @@
         private MetroFramework.Controls.MetroTile metroTile2;
         private MetroFramework.Controls.MetroTile metroTile_hand;
         private MetroFramework.Controls.MetroTile metroTile_auto;
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }
 

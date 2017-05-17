@@ -64,6 +64,12 @@
     <Compile Include="add_vehicle.Designer.cs">
       <DependentUpon>add_vehicle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_all_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_all_info.Designer.cs">
+      <DependentUpon>Form_all_info.cs</DependentUpon>
+    </Compile>
     <Compile Include="my objects\Bicycle.cs" />
     <Compile Include="my objects\Car.cs" />
     <Compile Include="Form1.cs">
@@ -74,12 +80,9 @@
     </Compile>
     <Compile Include="my objects\Lorry.cs" />
     <Compile Include="my objects\Garage.cs" />
-    <Compile Include="added obj\One_res.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="my objects\Vehicle.cs" />
-    <Compile Include="added obj\Resors_collet.cs" />
-    <Compile Include="random_add_venicle.cs" />
     <Compile Include="View_garage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_all_info.resx">
+      <DependentUpon>Form_all_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
-    <None Include="Resources\чч.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -14,7 +14,7 @@ namespace Winmetro
     {
        public Garage my_Garage;
        public add_vehicle form_add;
-        public View_garage form_view;
+       public View_garage form_view;
 
 
         public Form1()
@@ -35,8 +35,8 @@ namespace Winmetro
         {
             metroTile_auto.Visible = true;
             metroTile_hand.Visible = true;
-            metroTile1.Enabled = false;
-            metroTile2.Enabled = false;
+           // metroTile1.Enabled = false;
+           // metroTile2.Enabled = false;
 
 
         
@@ -59,8 +59,10 @@ namespace Winmetro
         //событие - автоматическое заполнение 
         private void metroTile_auto_Click(object sender, EventArgs e)
         {
-            random_add_venicle R_dd_vh = new random_add_venicle();
+            Random m=new Random();
+            my_Garage.Random_gener(m);
 
+            MessageBox.Show("Гараж сгенерирован!");
         }
 
         //событие -просмотр гаража
@@ -68,6 +70,11 @@ namespace Winmetro
         {
             form_view = new View_garage(this);
             form_view.ShowDialog();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

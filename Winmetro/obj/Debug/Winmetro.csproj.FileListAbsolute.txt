@@ -23,3 +23,4 @@ E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.Form1.resources
 E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.Properties.Resources.resources
 E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.csproj.GenerateResource.Cache
 E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.View_garage.resources
+E:\GITHUB\Winmetro\Winmetro\obj\Debug\Winmetro.Form_all_info.resources
